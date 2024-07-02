@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    /* background: rgba(79,54,8,0.25);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(79,54,8,0.125);
+    height: 100px; */
+
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 50vw;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.nav *{
+    color: white;
+}

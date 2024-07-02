@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(16, 16, 16, 0.824), rgba(14, 14, 14, 0.61)), url("../../../assets/strudel.jpg");
+    /* background-image: url("/assets/strudel.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+    width: 50vw;
+}
+
+.banner-title h1{
+    color: white;
+    text-align: center;
+    font-size: clamp(1.875rem, 0.2586rem + 5.1724vw, 3.75rem);
+    margin: 10px;
+}
+
+.banner-title h2{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.buffet h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+
